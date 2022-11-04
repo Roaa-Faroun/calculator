@@ -1,0 +1,28 @@
+
+div {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px auto;
+}
+div button {
+  display: flex;
+  width: calc((100% - 20px) / 3);
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #3c64b1;
+  color: #fff;
+  flex-grow: 1;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.operation {
+  background-color: #f2994a;
+}
+.equal {
+  background-color: #27ae60;
+}
